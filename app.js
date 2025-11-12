@@ -5,3 +5,5 @@ async function getFortune() {
 }
 
 getFortune().then(fortune => console.log(fortune));
+
+module.exports = getFortune;
